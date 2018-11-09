@@ -102,11 +102,10 @@ def main():
 	print("""
 	WARNING: This uses hachoir-metadata to extract resolution of video.
 	While it should work for most video formats, it has not been tested.
-	If something doesn't work, try disabling this. It will grab links for
-	all videos.
+	If something doesn't work, try disabling this by setting res_flag false. 
+	It will grab links for all videos.
 	""") 
-	
-	hachoir_flag = True		#Set False if hachoir not to be used. 
+
 	file_flag = True		#Set False if CSV file not needed. 
 	res_flag = True        #Set False if no videos are to be excluded.
 	
